@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="315.0" prefWidth="614.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messagesfx.controllers.RegistroController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <AnchorPane prefHeight="249.0" prefWidth="574.0">
+      <children>
+          <Button fx:id="btnregistro" layoutX="115.0" layoutY="157.0" onAction="#onregister" text="Registro" />
+         <PasswordField fx:id="txtpasswordregistro" layoutX="100.0" layoutY="49.0" />
+         <TextField fx:id="txtuserregistro" layoutX="100.0" layoutY="14.0" />
+         <Label fx:id="lbluserregistro" layoutX="31.0" layoutY="18.0" text="Users:" />
+         <Label fx:id="lblrepetirpassword" layoutX="30.0" layoutY="93.0" text="Repetir contraseña:" />
+         <ImageView fx:id="imagen" fitHeight="96.0" fitWidth="119.0" layoutX="340.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+         <Label fx:id="lblpasswordregistro" layoutX="31.0" layoutY="53.0" text="Password" />
+         <Button fx:id="btncancelar" layoutX="40.0" layoutY="157.0" text="Cancelar" />
+         <Button fx:id="btnselecionarimagen" layoutX="340.0" layoutY="157.0" onAction="#onImageSelect" text="Seleccionar imagen" />
+         <TextField fx:id="txtrepetircontraseña" layoutX="145.0" layoutY="89.0" />
+         <Label fx:id="lblAlerta" layoutX="30.0" layoutY="128.0" prefHeight="18.0" prefWidth="266.0" textAlignment="CENTER" textFill="RED" />
+      </children>
+   </AnchorPane>
+</VBox>
