@@ -14,5 +14,5 @@ Primero hay que instalar nodemodules así: `npm install`.
 Una vez hecho eso, se utiliza: `npm start` para iniciar la base de datos.
 
 ### MessagesFX
-Abrimos el proyecto en IntelliJ y lo ejecutamos desde HelloApplication
+Abrimos el proyecto en IntelliJ y lo ejecutamos desde HelloApplication.
 
