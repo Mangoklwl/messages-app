@@ -12,7 +12,8 @@ Aplicación para mandar y almacenar mensajes entre usuarios con fines academicos
 Es la parte del servidor.
 Primero hay que instalar nodemodules así: `npm install`.
 Una vez hecho eso, se utiliza: `npm start` para iniciar la base de datos.
-La base de datos funciona en local: mongoose.connect('mongodb://127.0.0.1:27017/message-services')
+La base de datos funciona en local:  mongoose.connect('mongodb://127.0.0.1:27017/message-services')
+app.listen(8080)
 
 ### MessagesFX
 Abrimos el proyecto en IntelliJ y lo ejecutamos desde HelloApplication.
