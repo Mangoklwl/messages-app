@@ -1,6 +1,12 @@
 # messages-app
 Aplicación para mandar y almacenar mensajes entre usuarios con fines academicos
 
+## Tecnología empleada
+
+[![Mongo](https://img.shields.io/badge/MongoDb-6.0.4-purple?longCache=true&style=popout-square)]()
+[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_Idea-2022-blue.svg?longCache=true&style=popout-square)]()
+[![visual](https://img.shields.io/badge/Visual_Studio-1.82.0-green.svg?longCache=true&style=popout-square)]()
+
 ## Cómo se usa
 ### Message service
 Es la parte del servidor.
